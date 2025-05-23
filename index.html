@@ -3,15 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vibe Coding Project</title>
+  <title>Responsive To-Do List</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello, Vibe World!</h1>
-  <button id="clickMe">Click Me</button>
-  <p id="output"></p>
 
-  <script src="script.js"></script>
+  <div class="todo-wrapper">
+    <h1>My To-Do List</h1>
+    <div class="todo-input">
+      <input type="text" id="taskInput" placeholder="Add a task...">
+      <button id="addTaskBtn">Add Task</button>
+    </div>
+    <ul id="taskList"></ul>
+  </div>
+
 </body>
 </html>
-
